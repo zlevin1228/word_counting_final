@@ -4,13 +4,13 @@ import os
 # Processing Files and Completing Word Counting Results WITH A FUNCTION
 from word_utils import count_words_in_files
 
-# Gets Directory
+# Gets Active Directory That is Open
 current_dir = os.getcwd()
 print("Current Working Directory:\n" + current_dir)
 
 
 
-# Gets File And/Or Directory
+# Gets File And/Or Directory That Will Be Counted
 
 while True:
         path = input("\nEnter a directory path or file name: ")
